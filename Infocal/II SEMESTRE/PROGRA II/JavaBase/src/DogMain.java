@@ -1,11 +1,11 @@
-public class perroP1 {
+public class DogMain {
     public static void main(String[] args) {
-        perro dog1 = new perro();
+        Dog dog1 = new Dog();
         dog1.nameDog = "Wilson";
         dog1.raceDog = "Labrador";
         dog1.colorDog = "Negro";
         dog1.sizeDog = "Pequeño";
-        perro.separators();
+        Dog.separators();
         System.out.println("| -- NOMBRE --");
         System.out.println("|    " + dog1.nameDog);
         System.out.println("| -- RAZA --");
@@ -14,7 +14,7 @@ public class perroP1 {
         System.out.println("|    " + dog1.colorDog);
         System.out.println("| -- TAMAÑO --");
         System.out.println("|    " + dog1.sizeDog);
-        perro.run();
-        perro.bark();
+        Dog.run();
+        Dog.bark();
     }
 }

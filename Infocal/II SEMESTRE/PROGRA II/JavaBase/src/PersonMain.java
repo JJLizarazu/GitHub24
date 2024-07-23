@@ -1,5 +1,5 @@
 import java.util.*;
-public class P4 {
+public class PersonMain {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         Scanner scc = new Scanner(System.in);

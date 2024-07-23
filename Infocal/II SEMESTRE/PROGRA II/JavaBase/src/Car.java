@@ -1,17 +1,13 @@
-public class car {
+public class Car {
     String color, model, brand;
 
-    car(){
+    Car(){
         System.out.println("Hola!");
     }
     public static void run(){
-        perro.separators();
         System.out.println("------ ¡AUTO CORRIENDO! ------");
-        perro.separators();
     }
     public static void horn(){
-        perro.separators();
         System.out.println("------ ¡BEEP! ¡BEEP! ------");
-        perro.separators();
     }
 }

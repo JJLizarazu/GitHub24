@@ -1,29 +1,59 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="115e4253-4e5d-41a8-89fc-3de911429586" name="Changes" comment="" />
+    <list default="true" id="115e4253-4e5d-41a8-89fc-3de911429586" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/testMain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/P3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DogMain2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/P4.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/PersonMain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Planet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Planet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/PlanetMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/PlanetMain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/car.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Car.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/carP2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CarMain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/perro.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Dog.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/perroP1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DogMain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/testPerson.java" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../../.." />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 0
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 0
+}</component>
   <component name="ProjectId" id="2jcfbxuR5sP0Zi9J2sKuGQnyc4Y" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.CustomerMain.executor": "Run",
+    "Application.Person2_1Main.executor": "Run",
+    "Application.PlanetMain.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "main",
-    "kotlin-language-version-configured": "true"
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/juanj/Desktop/2024/GitHub24/Infocal/II SEMESTRE/PROGRA II/JavaBase"
   }
 }]]></component>
   <component name="SharedIndexes">

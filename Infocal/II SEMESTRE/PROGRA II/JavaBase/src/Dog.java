@@ -1,4 +1,4 @@
-public class perro {
+public class Dog {
     public static void separators(){
         System.out.println("=============================");
     }
