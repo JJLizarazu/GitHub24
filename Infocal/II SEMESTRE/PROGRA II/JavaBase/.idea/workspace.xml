@@ -5,18 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="115e4253-4e5d-41a8-89fc-3de911429586" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/testMain.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/P3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DogMain2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/P4.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/PersonMain.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Planet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Planet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Automovil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Automovil.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/PlanetMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/PlanetMain.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/car.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Car.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/carP2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CarMain.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/perro.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Dog.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/perroP1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DogMain.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/testPerson.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Resources.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Resources.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,6 +39,7 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Application.CustomerMain.executor": "Run",
+    "Application.Main.executor": "Run",
     "Application.Person2_1Main.executor": "Run",
     "Application.PlanetMain.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",

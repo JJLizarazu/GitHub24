@@ -8,7 +8,9 @@ public class PlanetMain {
         System.out.println("Densidad del planeta: " + planet1.densityCalculator());
         System.out.println("Es planeta exterior: " + planet1.isOuterPlanet());
         Planet.separators();
+
         System.out.println(" ");
+
         Planet planet2 = new Planet(
                 "Júpiter", 79, 1.899E27, 1.4313E15, 139820,
                 750000000, Planet.type.GASEOSO, true);
