@@ -1,25 +1,30 @@
 import java.util.*;
-class Main{
+class mainCar{
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         Automovil car1 = new Automovil("Ford", 2018, 3, Automovil.fuelTypes.diesel,
-        Automovil.carTypes.Ejecutivo, 5, 6, 250, Automovil.colorTypes.Negro);
+        Automovil.carTypes.Ejecutivo, 5, 6, 250, Automovil.colorTypes.Negro, "Automático", 0);
         car1.dataPrint();
         car1.setActualVelocity(100);
+        Resources.dSeparators();
         System.out.println("Velocidad actual: " + car1.actualVelocity);
-        car1.speedUp(20);
+        Resources.dSeparators();
+        car1.speedUp(160); // VELOCIDAD MÁXIMA 250
+        car1.speedUp(160); // VELOCIDAD MÁXIMA 250
         System.out.println("Velocidad Actual: " + car1.actualVelocity);
         car1.decelerate(50);
         System.out.println("Velocidad Actual: " + car1.actualVelocity);
         car1.curb();
         System.out.println("Velocidad Actual: " + car1.actualVelocity);
+        Resources.dSeparators();
         car1.decelerate(20);
+        Automovil.finesCar(car1.fines);
     }
 }
 
 public class Automovil {
-    String brand;
-    int model, motor, numberDoors, numberSeat, maxVelocity, actualVelocity;
+    String brand, transmission;
+    int model, motor, numberDoors, numberSeat, maxVelocity, actualVelocity, fines;
     enum fuelTypes {Gasolina, bioetanol, diesel, biodiesel, Gas_Natural}
     fuelTypes typeFuel;
     enum carTypes {Ciudad, Subcompacto, Compacto, Familiar, Ejecutivo, Suv}
@@ -28,7 +33,7 @@ public class Automovil {
     colorTypes typeColor;
 
     Automovil(String brandCar, int modelCar, int motorCar, fuelTypes typeFuelCar, carTypes typeCarA,
-              int numberDoorsCar, int numberSeatCar, int maxVelocityCar, colorTypes typeColorCar){
+              int numberDoorsCar, int numberSeatCar, int maxVelocityCar, colorTypes typeColorCar, String transmissionCar, int finesCar){
         this.brand = brandCar;
         this.model = modelCar;
         this.motor = motorCar;
@@ -38,11 +43,15 @@ public class Automovil {
         this.numberSeat = numberSeatCar;
         this.maxVelocity = maxVelocityCar;
         this.typeColor = typeColorCar;
+        this.transmission = transmissionCar;
+        this.fines = finesCar;
     }
 
     String getBrand(){
         return brand;
     }
+    String getTransmission(){return transmission;}
+    int getFines(){return fines;}
 
     int getModel(){
         return model;
@@ -71,6 +80,8 @@ public class Automovil {
     colorTypes getTypeColor(){
         return typeColor;
     }
+    void setFines(int finesCar){this.fines = finesCar;}
+    void setTransmission(String transmissionCar){this.transmission = transmissionCar;}
     void setBrand(String brandCar){
         this.brand = brandCar;
     }
@@ -106,7 +117,10 @@ public class Automovil {
         if (actualVelocity + speedIncrease < maxVelocity){
             actualVelocity = actualVelocity + speedIncrease;
         } else {
-            System.out.println("¡¡NO SE PUEDE IR MAS RÁPIDO!!");
+            System.out.println("¡NO PUEDES IR MAS RÁPIDO!");
+            System.out.println("OBTUVISTE UNA MULTA ¡QUIETO!");
+            fines++;
+            finesCar(fines);
         }
     }
     void decelerate(int speedDecelerate){
@@ -122,7 +136,14 @@ public class Automovil {
     double calculateArriveTime(int distance){
         return (double) distance /actualVelocity; // DISTANCIA = VELOCIDAD * TIEMPO --> TIEMPO = DISTANCIA / VELOCIDAD
     }
+
+    static void finesCar(int fines){
+        Resources.dSeparators();
+        System.out.println("  ->> Multas: " + fines + " <<-");
+        Resources.dSeparators();
+    }
     void dataPrint(){
+        Resources.dSeparators();
         System.out.println("Marca: " + brand);
         System.out.println("Modelo: " + model);
         System.out.println("Motor: " + motor);
@@ -132,5 +153,6 @@ public class Automovil {
         System.out.println("Número de Asientos: " + numberSeat);
         System.out.println("Número de Puertas: " + numberDoors);
         System.out.println("Velocidad máxima: " + maxVelocity);
+        System.out.println("Tipo de transmisión: " + transmission);
     }
 }

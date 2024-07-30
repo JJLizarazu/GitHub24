@@ -5,8 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="115e4253-4e5d-41a8-89fc-3de911429586" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/../../BASES DE DATOS I/Docs/Presentación Diapositivas Informática y Tecnología Ilustrado Moderno Verde Oscuro.pdf" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Automovil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Automovil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Resources.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Resources.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,15 +37,19 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.BankAccount.executor": "Run",
     "Application.CustomerMain.executor": "Run",
+    "Application.Figuras.executor": "Run",
     "Application.Main.executor": "Run",
     "Application.Person2_1Main.executor": "Run",
     "Application.PlanetMain.executor": "Run",
+    "Application.main.executor": "Run",
+    "Application.mainShapes.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/juanj/Desktop/2024/GitHub24/MyCodes/MyJava"
+    "last_opened_file_path": "C:/Users/juanj/Desktop/2024/GitHub24/Infocal/II SEMESTRE/PROGRA II/JavaBase"
   }
 }]]></component>
   <component name="SharedIndexes">
