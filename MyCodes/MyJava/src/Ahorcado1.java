@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-class Ahorcado {
+class Ahorcado1 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         System.out.println("=======================");
