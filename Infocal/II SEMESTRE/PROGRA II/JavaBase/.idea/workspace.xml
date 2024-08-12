@@ -6,8 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="115e4253-4e5d-41a8-89fc-3de911429586" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Automovil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Automovil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Resources.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Resources.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../MyCodes/MyJava/src/Ahorcado.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../MyCodes/MyJava/src/Ahorcado.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../MyCodes/MyJava/src/CarreraCaballos.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../MyCodes/MyJava/src/CarreraCaballos.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,6 +37,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.Ahorcado.executor": "Run",
     "Application.BankAccount.executor": "Run",
     "Application.CustomerMain.executor": "Run",
     "Application.Figuras.executor": "Run",
@@ -49,9 +50,20 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/juanj/Desktop/2024/GitHub24/Infocal/II SEMESTRE/PROGRA II/JavaBase"
+    "last_opened_file_path": "C:/Users/juanj/Desktop/2024/GitHub24/MyCodes/MyJava"
   }
 }]]></component>
+  <component name="RunManager">
+    <configuration name="Ahorcado" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="ALTERNATIVE_JRE_PATH" value="azul-11" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="MAIN_CLASS_NAME" value="Ahorcado" />
+      <module name="JavaBase" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
