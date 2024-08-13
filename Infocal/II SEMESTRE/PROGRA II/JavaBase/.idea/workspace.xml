@@ -5,9 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="115e4253-4e5d-41a8-89fc-3de911429586" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../../BASES DE DATOS I/Docs/.$Info Blog Normalidad.drawio.dtmp" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../MyCodes/MyJava/src/Ahorcado.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../MyCodes/MyJava/src/Ahorcado.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../MyCodes/MyJava/src/CarreraCaballos.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../MyCodes/MyJava/src/CarreraCaballos.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,12 +44,13 @@
     "Application.Person2_1Main.executor": "Run",
     "Application.PlanetMain.executor": "Run",
     "Application.main.executor": "Run",
+    "Application.mainMovie.executor": "Run",
     "Application.mainShapes.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/juanj/Desktop/2024/GitHub24/MyCodes/MyJava"
+    "last_opened_file_path": "C:/Users/juanj/Desktop/2024/GitHub24/Infocal/I SEMESTRE/PROGRA I/JavaCode"
   }
 }]]></component>
   <component name="RunManager">
