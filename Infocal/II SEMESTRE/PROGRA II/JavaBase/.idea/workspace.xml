@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="115e4253-4e5d-41a8-89fc-3de911429586" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/../../BASES DE DATOS I/Docs/.$Info Blog Normalidad.drawio.dtmp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../BASES DE DATOS I/cineBase.sql" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -38,19 +38,25 @@
   "keyToString": {
     "Application.Ahorcado.executor": "Run",
     "Application.BankAccount.executor": "Run",
+    "Application.Cuadrilatero.executor": "Run",
     "Application.CustomerMain.executor": "Run",
     "Application.Figuras.executor": "Run",
     "Application.Main.executor": "Run",
     "Application.Person2_1Main.executor": "Run",
+    "Application.Pharmacy.executor": "Run",
     "Application.PlanetMain.executor": "Run",
+    "Application.Vehiculo.executor": "Run",
+    "Application.inheritMain.executor": "Run",
     "Application.main.executor": "Run",
     "Application.mainMovie.executor": "Run",
     "Application.mainShapes.executor": "Run",
+    "Application.staticMain.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/juanj/Desktop/2024/GitHub24/Infocal/I SEMESTRE/PROGRA I/JavaCode"
+    "last_opened_file_path": "C:/Users/juanj/Desktop/2024/GitHub24/Infocal/I SEMESTRE/PROGRA I/JavaCode",
+    "settings.editor.selected.configurable": "preferences.keymap"
   }
 }]]></component>
   <component name="RunManager">
