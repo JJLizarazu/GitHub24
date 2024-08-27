@@ -5,7 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="115e4253-4e5d-41a8-89fc-3de911429586" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/../../BASES DE DATOS I/cineBase.sql" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -34,31 +33,31 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.Ahorcado.executor": "Run",
-    "Application.BankAccount.executor": "Run",
-    "Application.Cuadrilatero.executor": "Run",
-    "Application.CustomerMain.executor": "Run",
-    "Application.Figuras.executor": "Run",
-    "Application.Main.executor": "Run",
-    "Application.Person2_1Main.executor": "Run",
-    "Application.Pharmacy.executor": "Run",
-    "Application.PlanetMain.executor": "Run",
-    "Application.Vehiculo.executor": "Run",
-    "Application.inheritMain.executor": "Run",
-    "Application.main.executor": "Run",
-    "Application.mainMovie.executor": "Run",
-    "Application.mainShapes.executor": "Run",
-    "Application.staticMain.executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "main",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/juanj/Desktop/2024/GitHub24/Infocal/I SEMESTRE/PROGRA I/JavaCode",
-    "settings.editor.selected.configurable": "preferences.keymap"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.Ahorcado.executor&quot;: &quot;Run&quot;,
+    &quot;Application.BankAccount.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Cuadrilatero.executor&quot;: &quot;Run&quot;,
+    &quot;Application.CustomerMain.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Figuras.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Person2_1Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Pharmacy.executor&quot;: &quot;Run&quot;,
+    &quot;Application.PlanetMain.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Vehiculo.executor&quot;: &quot;Run&quot;,
+    &quot;Application.inheritMain.executor&quot;: &quot;Run&quot;,
+    &quot;Application.main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.mainMovie.executor&quot;: &quot;Run&quot;,
+    &quot;Application.mainShapes.executor&quot;: &quot;Run&quot;,
+    &quot;Application.staticMain.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/juanj/Desktop/2024/GitHub24/Infocal/I SEMESTRE/PROGRA I/JavaCode&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.keymap&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager">
     <configuration name="Ahorcado" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="ALTERNATIVE_JRE_PATH" value="azul-11" />
