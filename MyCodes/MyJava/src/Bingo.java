@@ -140,7 +140,7 @@ public class Bingo {
 
         while (!gameOver) {
             try {
-                Thread.sleep(5000); // Esperar 5 segundos entre jugadas
+                Thread.sleep(1000); // Esperar 5 segundos entre jugadas
             } catch (InterruptedException e) {
                 Thread.currentThread().interrupt();
             }

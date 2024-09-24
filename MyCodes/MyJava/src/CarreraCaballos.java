@@ -8,8 +8,7 @@ public class CarreraCaballos {
 
         final int goal = 20;
         int[] positions = {0, 0, 0, 0};
-        String[] horsesName = {"GUARÚ CA2" +
-                "BRIOLO", "SARITA", "CHIQUITO", "CORNET"};
+        String[] horsesName = {"SAYA", "CHENTE", "CHIQUITO Z", "RAYAS"};
 
         while (true) {
             System.out.println("   |-------------------------------|");

@@ -11,7 +11,7 @@ class Ahorcado{
         // INTRODUCE AQUI LA PALABRA
         //  (May ó min no importa)
         // =========================
-        String word = "PISCINA";
+        String word = "CALIZAYAA";
         // =========================
 
         // ===========================================================================================
@@ -21,6 +21,7 @@ class Ahorcado{
         int correctVowel = 0;
         String[] vowelOfWordFinded = new String[numberOfVowels]; // ALMACENAR LAS VOCALES ENCONTRADAS
         String[] arrayOfWord = new String[numberOfVowels]; // SEPARAR LA PALABRA EN LETRAS EN UNA MATRIZ
+        ArrayList<String> useVowel = new ArrayList<>();
         // ===========================================================================================
 
         // ==============================================================
@@ -65,6 +66,11 @@ class Ahorcado{
             // ===========================================
             //             PISTAS DE LA PALABRA
             hintsOfWord(vowelOfWordFinded, numberOfVowels);
+            System.out.println(" ");
+            System.out.println("-> LETRAS USADAS <- ");
+            for (int i = 0 ; i < useVowel.size() ; i++){
+                System.out.print(" - " + useVowel.get(i) + " ");
+            }
             // ===========================================
             spaces();
 
@@ -95,6 +101,7 @@ class Ahorcado{
                     auxAttempt++;
                 }
             }
+            useVowel.add(vowelUpperCase);
             if (auxAttempt >= numberOfVowels){
                 attempt++;
             }
