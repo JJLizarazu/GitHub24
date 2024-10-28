@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="PRUEBAS.App_1.RegisterFrame">
+  <grid id="27dc6" binding="panelRegister" layout-manager="GridLayoutManager" row-count="3" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="10" left="10" bottom="10" right="10"/>
+    <constraints>
+      <xy x="20" y="20" width="539" height="474"/>
+    </constraints>
+    <properties/>
+    <border type="none"/>
+    <children>
+      <component id="2c9b0" class="javax.swing.JLabel" binding="title_R">
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="1" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Monocraft" size="26" style="1"/>
+          <text value="REGISTRO"/>
+        </properties>
+      </component>
+      <component id="43c1" class="javax.swing.JLabel" binding="subTitle">
+        <constraints>
+          <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="1" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Monocraft" size="18" style="0"/>
+          <text value="SELECCIONE PARA REGISTRAR"/>
+        </properties>
+      </component>
+      <grid id="70639" binding="panelRegister_1" layout-manager="GridLayoutManager" row-count="3" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+        <margin top="20" left="30" bottom="10" right="30"/>
+        <constraints>
+          <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties/>
+        <border type="none"/>
+        <children>
+          <component id="a8f7c" class="javax.swing.JButton" binding="studentBtn">
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="1" indent="0" use-parent-layout="false">
+                <preferred-size width="100" height="60"/>
+              </grid>
+            </constraints>
+            <properties>
+              <background color="-13421773"/>
+              <borderPainted value="false"/>
+              <focusCycleRoot value="false"/>
+              <focusPainted value="false"/>
+              <font name="Monocraft" size="20" style="0"/>
+              <foreground color="-1"/>
+              <hideActionText value="false"/>
+              <horizontalAlignment value="0"/>
+              <horizontalTextPosition value="0"/>
+              <margin top="0" left="0" bottom="0" right="0"/>
+              <text value="NUEVO ESTUDIANTE"/>
+            </properties>
+          </component>
+          <component id="3c8ef" class="javax.swing.JButton" binding="teacherBtn">
+            <constraints>
+              <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="1" indent="0" use-parent-layout="false">
+                <preferred-size width="100" height="60"/>
+              </grid>
+            </constraints>
+            <properties>
+              <background color="-13421773"/>
+              <borderPainted value="false"/>
+              <focusCycleRoot value="false"/>
+              <focusPainted value="false"/>
+              <font name="Monocraft" size="20" style="0"/>
+              <foreground color="-1"/>
+              <hideActionText value="false"/>
+              <horizontalAlignment value="0"/>
+              <horizontalTextPosition value="0"/>
+              <margin top="0" left="0" bottom="0" right="0"/>
+              <text value="NUEVO MAESTRO"/>
+            </properties>
+          </component>
+          <component id="cf859" class="javax.swing.JButton" binding="backBtn">
+            <constraints>
+              <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="1" indent="0" use-parent-layout="false">
+                <preferred-size width="160" height="60"/>
+              </grid>
+            </constraints>
+            <properties>
+              <background color="-13421773"/>
+              <borderPainted value="false"/>
+              <focusCycleRoot value="false"/>
+              <focusPainted value="false"/>
+              <font name="Monocraft" size="20" style="0"/>
+              <foreground color="-1"/>
+              <hideActionText value="false"/>
+              <horizontalAlignment value="0"/>
+              <horizontalTextPosition value="0"/>
+              <margin top="0" left="0" bottom="0" right="0"/>
+              <text value="VOLVER AL MENÚ"/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+    </children>
+  </grid>
+</form>
