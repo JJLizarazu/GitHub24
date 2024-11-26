@@ -31,5 +31,14 @@ public class Pane {
         frameRegisterStudent.setResizable(false);
     }
 
+    public static void showStudentPane(){
+        JFrame frameShowStudent = new JFrame("MOSTRAR ESTUDIANTE");
+        frameShowStudent.setContentPane(new ShowStudentFrame().ShowStudentPanel);
+        frameShowStudent.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+        frameShowStudent.setBounds(525,200,540,350);
+        frameShowStudent.setVisible(true);
+        frameShowStudent.setResizable(false);
+    }
+
 }
 

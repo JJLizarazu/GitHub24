@@ -1,7 +1,10 @@
 package PRUEBAS.App_1;
 
+import PRUEBAS.App_SignIn.SQL;
+
 import javax.swing.*;
 import java.sql.PreparedStatement;
+import java.sql.ResultSet;
 import java.sql.SQLException;
 
 import static PRUEBAS.App_1.main.connection;
@@ -14,6 +17,8 @@ public class Student extends Person{
     protected static int age = 0;
     protected static String gender;
     protected static String grade;
+    protected static String titleShow = "ID NOMBRE APELLIDO PATERNO APELLIDO MATERNO EDAD GRADO";
+
 
     public Student(String name, String lastFatherName, String lastMotherName, int age, String gender, String grade) {
         super(name, lastFatherName, lastMotherName, age, gender);
@@ -80,6 +85,34 @@ public class Student extends Person{
     public static void setGrade(String grade) {
         Student.grade = grade;
     }
+
+    public static String showStudent(){
+        StringBuilder dataPrint = new StringBuilder("<html><table border='1'>");
+        dataPrint.append("<tr><th>ID</th><th>Nombre</th><th>Apellido Paterno</th><th>Apellido Materno</th><th>Edad</th><th>Género</th><th>Grado</th></tr>");
+
+        if (connection != null) {
+            String sql = "SELECT id, nombre, apellidoPaterno, apellidoMaterno, edad, genero, grado FROM ESTUDIANTE ORDER BY id ASC";
+            try (PreparedStatement stmt = connection.prepareStatement(sql)){
+                ResultSet rs = stmt.executeQuery();
+                while (rs.next()){
+                    dataPrint.append("<tr>")
+                            .append("<td>").append(rs.getString("id")).append("</td>")
+                            .append("<td>").append(rs.getString("nombre")).append("</td>")
+                            .append("<td>").append(rs.getString("apellidoPaterno")).append("</td>")
+                            .append("<td>").append(rs.getString("apellidoMaterno")).append("</td>")
+                            .append("<td>").append(rs.getString("edad")).append("</td>")
+                            .append("<td>").append(rs.getString("genero")).append("</td>")
+                            .append("<td>").append(rs.getString("grado")).append("</td>")
+                            .append("</tr>");
+                }
+                dataPrint.append("</table></html>");
+            } catch (SQLException e){
+                System.out.println("ERROR AL INTENTAR MOSTRAR DATOS " + e.getMessage());
+            }
+        }
+        return dataPrint.toString();
+    }
+
 
     public static void registStudent() {
         if (Student.getName().isEmpty() || Student.getLastFatherName().isEmpty() || Student.getLastMotherName().isEmpty() ||

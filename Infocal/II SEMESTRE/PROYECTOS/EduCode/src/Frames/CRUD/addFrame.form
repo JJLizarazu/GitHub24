@@ -1,0 +1,251 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="Frames.CRUD.addFrame">
+  <grid id="27dc6" binding="addPanel" layout-manager="GridLayoutManager" row-count="1" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="0" left="0" bottom="0" right="0"/>
+    <constraints>
+      <xy x="20" y="20" width="1358" height="508"/>
+    </constraints>
+    <properties/>
+    <border type="none"/>
+    <children>
+      <grid id="6d3c" binding="main" layout-manager="GridLayoutManager" row-count="2" column-count="2" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+        <margin top="0" left="0" bottom="0" right="0"/>
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties/>
+        <border type="none"/>
+        <children>
+          <grid id="e2787" binding="header" layout-manager="GridLayoutManager" row-count="2" column-count="2" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+            <margin top="40" left="0" bottom="0" right="60"/>
+            <constraints>
+              <grid row="0" column="1" row-span="2" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties/>
+            <border type="none"/>
+            <children>
+              <component id="67034" class="javax.swing.JButton" binding="outLogBtn">
+                <constraints>
+                  <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+                    <preferred-size width="60" height="20"/>
+                  </grid>
+                </constraints>
+                <properties>
+                  <background color="-15780178"/>
+                  <focusable value="false"/>
+                  <font name="Roboto" size="18" style="0"/>
+                  <foreground color="-1"/>
+                  <text value="VOLVER"/>
+                </properties>
+              </component>
+              <hspacer id="ebcf6">
+                <constraints>
+                  <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                </constraints>
+              </hspacer>
+              <vspacer id="6eadb">
+                <constraints>
+                  <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+                </constraints>
+              </vspacer>
+            </children>
+          </grid>
+          <grid id="b9799" binding="footer" layout-manager="GridLayoutManager" row-count="1" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+            <margin top="0" left="0" bottom="0" right="0"/>
+            <constraints>
+              <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties/>
+            <border type="none"/>
+            <children>
+              <component id="632ee" class="javax.swing.JButton" binding="registBtn">
+                <constraints>
+                  <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false">
+                    <preferred-size width="200" height="45"/>
+                  </grid>
+                </constraints>
+                <properties>
+                  <background color="-15780178"/>
+                  <focusable value="false"/>
+                  <font name="Roboto" size="14" style="0"/>
+                  <foreground color="-1"/>
+                  <text value="REGISTRAR"/>
+                </properties>
+              </component>
+            </children>
+          </grid>
+          <grid id="836d5" binding="body" layout-manager="GridLayoutManager" row-count="8" column-count="2" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+            <margin top="75" left="100" bottom="60" right="150"/>
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties/>
+            <border type="none"/>
+            <children>
+              <component id="2a4bb" class="javax.swing.JLabel" binding="label1">
+                <constraints>
+                  <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <font name="Roboto" size="16" style="0"/>
+                  <foreground color="-1"/>
+                  <text value="NOMBRE:"/>
+                </properties>
+              </component>
+              <component id="bdcba" class="javax.swing.JTextField" binding="nameField">
+                <constraints>
+                  <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                    <preferred-size width="150" height="-1"/>
+                  </grid>
+                </constraints>
+                <properties>
+                  <font name="Roboto" size="16" style="0"/>
+                </properties>
+              </component>
+              <component id="8d29e" class="javax.swing.JLabel" binding="label2">
+                <constraints>
+                  <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <font name="Roboto" size="16" style="0"/>
+                  <foreground color="-1"/>
+                  <text value="APELLIDO:"/>
+                </properties>
+              </component>
+              <component id="60334" class="javax.swing.JLabel" binding="label3">
+                <constraints>
+                  <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <font name="Roboto" size="16" style="0"/>
+                  <foreground color="-1"/>
+                  <text value="PAÍS:"/>
+                </properties>
+              </component>
+              <component id="1e708" class="javax.swing.JLabel" binding="label4">
+                <constraints>
+                  <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <font name="Roboto" size="16" style="0"/>
+                  <foreground color="-1"/>
+                  <text value="CIUDAD:"/>
+                </properties>
+              </component>
+              <component id="c3e89" class="javax.swing.JLabel" binding="label5">
+                <constraints>
+                  <grid row="4" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <font name="Roboto" size="16" style="0"/>
+                  <foreground color="-1"/>
+                  <text value="NÚMERO TELÉFONO:"/>
+                </properties>
+              </component>
+              <component id="2731d" class="javax.swing.JLabel" binding="label6">
+                <constraints>
+                  <grid row="5" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <font name="Roboto" size="16" style="0"/>
+                  <foreground color="-1"/>
+                  <text value="DIRECCIÓN:"/>
+                </properties>
+              </component>
+              <component id="e32a4" class="javax.swing.JLabel" binding="label7">
+                <constraints>
+                  <grid row="6" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <font name="Roboto" size="16" style="0"/>
+                  <foreground color="-1"/>
+                  <text value="CORREO:"/>
+                </properties>
+              </component>
+              <component id="bf64" class="javax.swing.JLabel" binding="label8">
+                <constraints>
+                  <grid row="7" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <font name="Roboto" size="16" style="0"/>
+                  <foreground color="-1"/>
+                  <text value="CONTRASEÑA:"/>
+                </properties>
+              </component>
+              <component id="2d121" class="javax.swing.JTextField" binding="lastNameField">
+                <constraints>
+                  <grid row="1" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                    <preferred-size width="150" height="-1"/>
+                  </grid>
+                </constraints>
+                <properties>
+                  <font name="Roboto" size="16" style="0"/>
+                </properties>
+              </component>
+              <component id="8a3f5" class="javax.swing.JTextField" binding="countryField">
+                <constraints>
+                  <grid row="2" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                    <preferred-size width="150" height="-1"/>
+                  </grid>
+                </constraints>
+                <properties>
+                  <font name="Roboto" size="16" style="0"/>
+                </properties>
+              </component>
+              <component id="e310c" class="javax.swing.JTextField" binding="cityField">
+                <constraints>
+                  <grid row="3" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                    <preferred-size width="150" height="-1"/>
+                  </grid>
+                </constraints>
+                <properties>
+                  <font name="Roboto" size="16" style="0"/>
+                </properties>
+              </component>
+              <component id="cb90a" class="javax.swing.JTextField" binding="numberField">
+                <constraints>
+                  <grid row="4" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                    <preferred-size width="150" height="-1"/>
+                  </grid>
+                </constraints>
+                <properties>
+                  <font name="Roboto" size="16" style="0"/>
+                </properties>
+              </component>
+              <component id="6824c" class="javax.swing.JTextField" binding="addressField">
+                <constraints>
+                  <grid row="5" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                    <preferred-size width="150" height="-1"/>
+                  </grid>
+                </constraints>
+                <properties>
+                  <font name="Roboto" size="16" style="0"/>
+                </properties>
+              </component>
+              <component id="c497a" class="javax.swing.JTextField" binding="emailField">
+                <constraints>
+                  <grid row="6" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                    <preferred-size width="150" height="-1"/>
+                  </grid>
+                </constraints>
+                <properties>
+                  <font name="Roboto" size="16" style="0"/>
+                </properties>
+              </component>
+              <component id="894a6" class="javax.swing.JPasswordField" binding="passField">
+                <constraints>
+                  <grid row="7" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                    <preferred-size width="150" height="-1"/>
+                  </grid>
+                </constraints>
+                <properties>
+                  <font name="Roboto" size="16" style="0"/>
+                </properties>
+              </component>
+            </children>
+          </grid>
+        </children>
+      </grid>
+    </children>
+  </grid>
+</form>
